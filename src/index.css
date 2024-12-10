@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hover\:underline-bold:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;  /* Adjust the thickness of the underline */
+    text-decoration-color: #2e7879;    /* Optional: change the color of the underline */
+  }
+  
