@@ -88,7 +88,7 @@ const Nav = () => {
           {/* Modal for SignUp/Login */}
           {isModalOpen && (
             <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-              <div className="bg-white rounded-xl md:w-[1000px] w-full  ">
+              <div className="bg-white rounded-xl md:w-[1000px] w-full">
                 {/* Close Modal */}
                 <button onClick={handleCloseModal} className="absolute top-2 right-2 text-xl font-bold">X</button>
                 {/* Show SignUp or Login */}

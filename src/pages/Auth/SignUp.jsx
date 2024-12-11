@@ -37,8 +37,11 @@ const SignUp = ({ switchToLogin }) => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row md:items-start mx-6">
-      <div className="max-w-lg md:mx-4 md:order-1">
+    <div className="flex flex-col md:flex-row md:items-start mx-6 border rounded-lg py-10">
+        <div className="md:order-2 md:ml-4 md:hidden">
+        <img src={photo} alt="Welcome Illustration" className="h-[250px] w-full" />
+      </div>
+      <div className="max-w-lg md:mx-4">
         <form onSubmit={handleSignUp}>
           <h1 className="md:text-2xl text-xl font-bold text-black text-start">
             Join our community of home seekers and explore the possibilities that await.
@@ -162,8 +165,8 @@ const SignUp = ({ switchToLogin }) => {
       </div>
 
       {/* Image Section */}
-      <div className="w-full md:mt-0 md:order-2 md:ml-4">
-        <img src={photo} alt="Welcome Illustration" className="md:h-[700px] h-[700px]" />
+      <div className="mt-6 md:mt-0 md:order-2 md:ml-4 hidden md:block">
+        <img src={photo} alt="Welcome Illustration" />
       </div>
     </div>
   );
