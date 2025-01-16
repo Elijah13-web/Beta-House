@@ -35,7 +35,7 @@ const VerticalDivider = ({ height = '100px', width = '1px', color = 'white' }) =
     };
 
   return (
-    <div className='relative overflow-hidden'>
+    <div className='relative '>
         <img src={house} alt='' className='w-full md:h-[600px] h-[400px]'/>
         <Wrapper>
             <div>
@@ -45,8 +45,8 @@ const VerticalDivider = ({ height = '100px', width = '1px', color = 'white' }) =
                 <p className='text-lg md:w-[600px] w-[340px]'>Find your perfect home among our curated properties. Start browsing now!</p>
             </div>
 
-        <div className='shadow  bg-[#FFFFFF33] bottom-52 lg:relative flex-col lg:flex-row p-4 md:flex'>
-        <div className='bg-white text-black flex flex-wrap flex-col lg:flex-row p-1 items-center justify-center lg:w-[1000px] md:rounded-none rounded-lg'>
+        <div className='shadow  bg-[#FFFFFF33] bottom-52 lg:relative flex-col lg:flex-row p-4 justify-center md:flex'>
+        <div className='bg-white text-black flex flex-wrap flex-col lg:flex-row p-1 items-center justify-center lg:w-[1100px] md:rounded-none rounded-lg'>
         
         {/*LOCATION */}
         <div className='flex-1 flex-col md:flex-row relative ml-14 '>
@@ -182,7 +182,7 @@ const VerticalDivider = ({ height = '100px', width = '1px', color = 'white' }) =
         </div>
 
             </div>
-            <div className=' text-center lg:text-start'>
+            <div className=' text-center '>
         <button className='bg-[#3D9970] text-white font-semibold py-8 px-6 md:rounded-none rounded-lg border hover:bg-[#54d79c] w-[300px] '>
           Search Properties
         </button>

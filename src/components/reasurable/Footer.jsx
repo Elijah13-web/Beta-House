@@ -84,7 +84,7 @@ const Footer = () => {
         <div className='md:flex justify-between mx-auto md:px-14 md:text-start text-center text-sm'>
                 <h1>Copyright 2023 Betahouse | Designed by Michael.fig | code by Elijah.13</h1>
                 <div className='flex gap-1 md:justify-start justify-center pt-2 md:pt-0'>
-                    <img src={pes} alt=''/>
+                    <img src={pes} alt='' className='hidden'/>
                     <h1>Privacy Policy</h1>
                 </div>
             </div>
